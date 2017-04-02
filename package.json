@@ -1,0 +1,33 @@
+{
+  "name": "fenrirunbound-ttbo",
+  "version": "1.0.0",
+  "description": "ToTheBestOf",
+  "main": "index.js",
+  "scripts": {
+    "local": "node ./test/local-server.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FenrirUnbound/wst-ttbo.git"
+  },
+  "author": "Darren M <aeneascorrupt@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/FenrirUnbound/wst-ttbo/issues"
+  },
+  "homepage": "https://github.com/FenrirUnbound/wst-ttbo#readme",
+  "private": true,
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "sinon": "^2.1.0",
+    "sinon-chai": "^2.9.0"
+  },
+  "dependencies": {
+    "hapi": "^16.1.0",
+    "inert": "^4.1.0",
+    "node-env-file": "^0.1.8",
+    "request": "^2.81.0"
+  }
+}
