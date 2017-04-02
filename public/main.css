@@ -1,0 +1,16 @@
+.bigger {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.progress {
+  background-color: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  transform: rotate(-180deg);
+}
+
+.fat-font {
+  font-size: 18px;
+  line-height: 1.3333333;
+}
