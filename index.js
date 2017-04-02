@@ -6,7 +6,12 @@ const env = require('node-env-file');
 const inert = require('inert');
 const path = require('path');
 
-env(path.resolve(__dirname, './.env'), {raise: false});
+try {
+  env(path.resolve(__dirname, './.env'), {raise: false});
+} catch (e) {
+  console.error('This should not even be a problem');
+  console.error(e);
+}
 
 function register (server, options, next) {
   server.register(inert, () => {});
